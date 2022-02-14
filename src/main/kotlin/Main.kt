@@ -26,5 +26,5 @@ fun main() {
     //formats and calculates how many days are left until the next full moon, then prints it
     val daysUntil = today.until(nextFullMoon, ChronoUnit.DAYS)
     val nextFullMoonFormatted = nextFullMoon.format(formatter)
-    println("There are $daysUntil days until the next full moon. on $nextFullMoonFormatted")
+    println("There are $daysUntil days until the next full moon on $nextFullMoonFormatted")
 }
